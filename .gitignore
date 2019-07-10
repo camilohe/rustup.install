@@ -1,0 +1,12 @@
+
+# Created by https://www.gitignore.io/api/chocolatey
+# Edit at https://www.gitignore.io/?templates=chocolatey
+
+### Chocolatey ###
+# Exclude packaged modules
+*.nupkg
+_TODO.txt
+_README.md
+
+# End of https://www.gitignore.io/api/chocolatey
+
