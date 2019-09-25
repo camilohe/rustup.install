@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rustup.install</id>
-    <version>1.18.3</version>
+    <version>1.19.0</version>
     <packageSourceUrl>https://github.com/camilohe/rustup.install</packageSourceUrl>
     <owners>camilohe</owners>
 
@@ -19,7 +19,7 @@
     <description>
 This package installs [**rustup**](https://rustup.rs/) the toolchain installer for [**The Rust Programming Language**](https://www.rust-lang.org/) from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated.
 
-If you're a Windows Subsystem for Linux user **do not install this package** but run the following in your terminal, then follow the onscreen instructions to install Rust.
+**If you're a Windows Subsystem for Linux user do not install this package** but run the following in your terminal, then follow the onscreen instructions to install Rust.
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

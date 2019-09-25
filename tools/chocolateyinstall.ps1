@@ -13,9 +13,9 @@ $packageArgs = @{
 
     softwareName   = 'rustup*' 
 
-    checksum       = '9B15C26905D4505AB77E000750AA3AEDEB909507485C5E5901B6AD7DE9D42E2D'
+    checksum       = '22F51975DCC460198FB576AFEC5D38D47E4F1B8E28185AE2312D57CF9D35DA1C'
     checksumType   = 'sha256' 
-    checksum64     = '9DA383C67914EEF4B8F880CB8E6D75F623F1261A08ED791A0404C3EBCA8C3A5A'
+    checksum64     = 'E325B428A0FF9132B59EC586E85B1DB4EAA66ACC13B3DAF8090520D2E7694388'
     checksumType64 = 'sha256' 
 
     silentArgs     = '--version' # tell rustup-init.exe to just show the version instead of installing a rust toolchain. if you want the default toolchain for your os/arch use '-v -y' instead.
