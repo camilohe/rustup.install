@@ -18,7 +18,7 @@ $packageArgs = @{
     checksum64     = 'E325B428A0FF9132B59EC586E85B1DB4EAA66ACC13B3DAF8090520D2E7694388'
     checksumType64 = 'sha256' 
 
-    silentArgs     = '--version' # tell rustup-init.exe to just show the version instead of installing a rust toolchain. if you want the default toolchain for your os/arch use '-v -y' instead.
+    silentArgs     = '-v -y' # it seems we need '-v -y' starting with 1.9.0 to get rustup copied to the .cargo\bin folder.
 }
 
 Install-ChocolateyPackage @packageArgs 
