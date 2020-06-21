@@ -13,9 +13,9 @@ $packageArgs = @{
 
     softwareName   = 'rustup*' 
 
-    checksum       = '22F51975DCC460198FB576AFEC5D38D47E4F1B8E28185AE2312D57CF9D35DA1C'
+    checksum       = 'B98D6677B55DB9C7DA8582A6279FF841DD49CEE93CD9BB67F9773995F1083F41'
     checksumType   = 'sha256' 
-    checksum64     = 'E325B428A0FF9132B59EC586E85B1DB4EAA66ACC13B3DAF8090520D2E7694388'
+    checksum64     = '9F9E33FA4759075EC60E4DA13798D1D66A4C2F43C5500E08714399313409DCF5'
     checksumType64 = 'sha256' 
 
     silentArgs     = '-v -y' # it seems we need '-v -y' starting with 1.9.0 to get rustup copied to the .cargo\bin folder.
