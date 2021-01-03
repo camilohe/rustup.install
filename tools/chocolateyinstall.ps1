@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 
-$version = '1.23.0'
+$version = '1.23.1'
 
 $triple_x86 = 'i686-pc-windows-msvc'
 $triple_x64 = 'x86_64-pc-windows-msvc'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-# e.g. https://static.rust-lang.org/rustup/archive/1.23.0/i686-pc-windows-msvc/rustup-init.exe
+# e.g. https://static.rust-lang.org/rustup/archive/1.23.1/i686-pc-windows-msvc/rustup-init.exe
 $url = "https://static.rust-lang.org/rustup/archive/$version/$triple_x86/rustup-init.exe"
-# e.g. https://static.rust-lang.org/rustup/archive/1.23.0/x86_64-pc-windows-msvc/rustup-init.exe
+# e.g. https://static.rust-lang.org/rustup/archive/1.23.1/x86_64-pc-windows-msvc/rustup-init.exe
 $url64 = "https://static.rust-lang.org/rustup/archive/$version/$triple_x64/rustup-init.exe"
 
 
@@ -20,9 +20,9 @@ $packageArgs = @{
 
     softwareName   = 'rustup-init.exe' 
 
-    checksum       = '48E2BEA0BF6B9C782C8732E8DE17A3D87B5760AF8931E801652F8A47B27018CC'
-    checksumType   = 'sha256' 
-    checksum64     = '655388940708EE094FCAD294B00AF05B8B81C0AB7F8DA67CD31224BD41F5F33B'
+    checksum       = 'C1288BC054BCDB1106686D63DB9527481AC823FA0EF2538B7012CFE7D0F3D307'
+    checksumType   = 'sha256'
+    checksum64     = 'A586CF9DE3E4AA791FD5796B6A5F99CA05591CCEF8BB94E53AF5B69F0261FB03'
     checksumType64 = 'sha256' 
 
     silentArgs     = '-v -y' # it seems we need '-v -y' starting with 1.9.0 to get rustup copied to the .cargo\bin folder.
