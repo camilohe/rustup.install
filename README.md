@@ -13,7 +13,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ## changes
+- updated to install rustup 1.24.3
 - updated to install rustup 1.22.1
 - updated to install rustup 1.21.1 (thanks @gsomix)
 - updated to install rustup 1.19.0
-- initial version: rustup 1.18.3 
+- initial version: rustup 1.18.3
