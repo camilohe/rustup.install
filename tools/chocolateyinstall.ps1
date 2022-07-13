@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url = 'https://win.rustup.rs/i686' 
-$url64 = 'https://win.rustup.rs/x86_64'
+$url = 'https://static.rust-lang.org/rustup/archive/1.25.1/i686-pc-windows-msvc/rustup-init.exe'
+$url64 = 'https://static.rust-lang.org/rustup/archive/1.25.1/x86_64-pc-windows-msvc/rustup-init.exe'
 
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
@@ -13,9 +13,9 @@ $packageArgs = @{
 
     softwareName   = 'rustup*' 
 
-    checksum       = '33DDB81079F94150E162FA00A84A00FF4649419FCE5AA54116CB4147785732D1'
+    checksum       = '79442f66a969a504febda49ee9158a90ad9e94913209ccdca3c22ef86d635c31'
     checksumType   = 'sha256' 
-    checksum64     = '780B445EE18BDC5A31AD6A4A63943927E5C0BBA8BFF664E8ECC8D5BCA3906C7B'
+    checksum64     = '2220ddb49fea0e0945b1b5913e33d66bd223a67f19fd1c116be0318de7ed9d9c'
     checksumType64 = 'sha256' 
 
     silentArgs     = '-v -y' # it seems we need '-v -y' starting with 1.9.0 to get rustup copied to the .cargo\bin folder.
